@@ -11,14 +11,14 @@
 }:
 python3Packages.buildPythonPackage rec {
   pname = "auto-cpufreq";
-  version = "2.4.0";
+  version = "2.5.0";
   format = "pyproject";
 
   src = fetchFromGitHub {
     owner = "AdnanHodzic";
     repo = "auto-cpufreq";
-    rev = "refs/tags/v${version}";
-    hash = "sha256-Xsh3d7rQY7RKzZ7J0swrgxZEyITb7B3oX5F/tcBGjfk=";
+    tag = "v${version}";
+    hash = "sha256-iDvgL5dQerQnu2ERKAWGvWppG7cQ/0uKEfVY93ItvO4=";
   };
 
   nativeBuildInputs = [
