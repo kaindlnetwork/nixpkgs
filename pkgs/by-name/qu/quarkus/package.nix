@@ -8,11 +8,11 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "quarkus-cli";
-  version = "3.18.3";
+  version = "3.19.3";
 
   src = fetchurl {
     url = "https://github.com/quarkusio/quarkus/releases/download/${finalAttrs.version}/quarkus-cli-${finalAttrs.version}.tar.gz";
-    hash = "sha256-hdcst+g6jlHD9tOh3UrtT4kc7vro2Jd/eTlSZkB+8L4=";
+    hash = "sha256-Vz+L3wB7IjfCw47ZHMyD2LnonoUbSAFS5byQ5DylUCo=";
   };
 
   nativeBuildInputs = [ makeWrapper ];
