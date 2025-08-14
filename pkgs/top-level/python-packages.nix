@@ -1007,6 +1007,8 @@ self: super: with self; {
 
   astunparse = callPackage ../development/python-modules/astunparse { };
 
+  asusrouter = callPackage ../development/python-modules/asusrouter { };
+
   asyauth = callPackage ../development/python-modules/asyauth { };
 
   asyauth-bad = callPackage ../development/python-modules/asyauth-bad { };
@@ -6798,6 +6800,8 @@ self: super: with self; {
 
   hypchat = callPackage ../development/python-modules/hypchat { };
 
+  hyper-connections = callPackage ../development/python-modules/hyper-connections { };
+
   hypercorn = callPackage ../development/python-modules/hypercorn { };
 
   hyperframe = callPackage ../development/python-modules/hyperframe { };
@@ -8649,6 +8653,8 @@ self: super: with self; {
 
   loca = callPackage ../development/python-modules/loca { };
 
+  local-attention = callPackage ../development/python-modules/local-attention { };
+
   localimport = callPackage ../development/python-modules/localimport { };
 
   localstack-client = callPackage ../development/python-modules/localstack-client { };
@@ -9525,6 +9531,8 @@ self: super: with self; {
   moonraker-api = callPackage ../development/python-modules/moonraker-api { };
 
   mopeka-iot-ble = callPackage ../development/python-modules/mopeka-iot-ble { };
+
+  mopidyapi = callPackage ../development/python-modules/mopidyapi { };
 
   more-itertools = callPackage ../development/python-modules/more-itertools { };
 
@@ -10472,6 +10480,8 @@ self: super: with self; {
   noise = callPackage ../development/python-modules/noise { };
 
   noiseprotocol = callPackage ../development/python-modules/noiseprotocol { };
+
+  noisereduce = callPackage ../development/python-modules/noisereduce { };
 
   nomadnet = callPackage ../development/python-modules/nomadnet { };
 
@@ -15212,6 +15222,8 @@ self: super: with self; {
   pywmspro = callPackage ../development/python-modules/pywmspro { };
 
   pyworld = callPackage ../development/python-modules/pyworld { };
+
+  pyworxcloud = callPackage ../development/python-modules/pyworxcloud { };
 
   pyws66i = callPackage ../development/python-modules/pyws66i { };
 
